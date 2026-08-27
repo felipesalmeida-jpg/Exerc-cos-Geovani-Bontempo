@@ -25,5 +25,9 @@ O 'user_dat
 Resumo das opções mais úteis:
 
 '-k "não
+
+
 -v — mostra cada teste com nome completo
+
+
 -s — mostra os prints no console
