@@ -10,11 +10,9 @@ def navegador():
     driver.quit()
 
 def test_verificar_titulo_do_playground(navegador):
-    # # Executa a validação — descobre o caminho do playground.html, abre o arquivo no Chrome e checa se o título da aba é exatamente "Playground Selenium" (assert).
     pasta_atual = Path(__file__).parent.absolute()
-    caminho_html = (pasta_atual / "playground.html").as_uri() # O código utiliza um caminho para um arquivo HTML local na mesma pasta que o script de teste, em vez de acessar um site na Internet. O prefixo `file://` indica ao navegador para abrir um arquivo local.
+    caminho_html = (pasta_atual / "playground.html").as_uri()
     
     navegador.get(caminho_html)
     
     assert navegador.title == "Playground Selenium"
-
