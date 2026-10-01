@@ -1,0 +1,27 @@
+[33mcommit 07c6f4efe06569bfeb63a0f3bcadc8107446c0ca[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Felipe Santos de Almeida <felipe.salmeida@aluno.impacta.edu.br>
+Date:   Wed Sep 30 21:54:10 2026 -0300
+
+    Remove cache do versionamento e adiciona atividade Flake8
+
+ .gitignore                                         |   5 [32m+++++[m
+ Flake8/.flake8                                     |  12 [32m+++++++++++[m
+ Flake8/explicacao.md                               |   5 [32m+++++[m
+ Flake8/test_login.py                               |  24 [32m+++++++++++++++++++++[m
+ __pycache__/conftest.cpython-311-pytest-9.1.1.pyc  | Bin [31m1902[m -> [32m0[m bytes
+ __pycache__/conftest.cpython-314-pytest-9.1.1.pyc  | Bin [31m1793[m -> [32m0[m bytes
+ __pycache__/test_db.cpython-311-pytest-9.1.1.pyc   | Bin [31m6242[m -> [32m0[m bytes
+ __pycache__/test_db.cpython-314-pytest-9.1.1.pyc   | Bin [31m5826[m -> [32m0[m bytes
+ ...selenium_como_test.cpython-314-pytest-9.1.1.pyc | Bin [31m2039[m -> [32m0[m bytes
+ .../test_portal.cpython-314-pytest-9.1.1.pyc       | Bin [31m8607[m -> [32m0[m bytes
+ exercício 2/__pycache__/main.cpython-314.pyc       | Bin [31m1969[m -> [32m0[m bytes
+ .../test_main.cpython-314-pytest-9.1.1.pyc         | Bin [31m12682[m -> [32m0[m bytes
+ .../test_validador.cpython-314-pytest-9.1.1.pyc    | Bin [31m4585[m -> [32m0[m bytes
+ exercício 3/__pycache__/validador.cpython-314.pyc  | Bin [31m627[m -> [32m0[m bytes
+ .../exercicio1/__pycache__/app.cpython-314.pyc     | Bin [31m1140[m -> [32m0[m bytes
+ .../test_app.cpython-314-pytest-9.1.1.pyc          | Bin [31m1568[m -> [32m0[m bytes
+ .../exercicio2/__pycache__/app.cpython-314.pyc     | Bin [31m4249[m -> [32m0[m bytes
+ .../test_app.cpython-314-pytest-9.1.1.pyc          | Bin [31m2568[m -> [32m0[m bytes
+ .../exercicio3/__pycache__/app.cpython-314.pyc     | Bin [31m1810[m -> [32m0[m bytes
+ .../test_app.cpython-314-pytest-9.1.1.pyc          | Bin [31m1867[m -> [32m0[m bytes
+ 20 files changed, 46 insertions(+)
