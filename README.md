@@ -85,4 +85,6 @@ O workflow `.github/workflows/ci-exercicio-12.yml` roda a cada push ou pull requ
 
 O workflow fica na raiz porque o GitHub só lê `.github/workflows/` no nível mais alto do repositório. Os comandos usam `working-directory` para executar dentro da pasta do exercício.
 
-A atividade completa do exercício 12 (erro intencional, regra de proteção da `main` e Pull Requests) foi feita no repositório [ci-fastapi-ast12](https://github.com/felipesalmeida-jpg/ci-fastapi-ast12).
+Teste do exercício 12 (erro intencional, regra de proteção da `main` e Pull Requests) foi feita no repositório [ci-fastapi-ast12](https://github.com/felipesalmeida-jpg/ci-fastapi-ast12).
+
+Assim tudo feito e corrigido, foi passado uma cópia para EXERCICCIO 12 com todos os arquivos e refeito o ACTIONS e teste erro de propósito testado e teste 100% passed feito também.
